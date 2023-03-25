@@ -18,7 +18,7 @@ void spiralMat(int arr[6][3],int n){
             cout<<arr[endRow][i]<<" ";
         }
         endRow--;
-        //we have to go to starting col
+        //we have to go to starting col 
         for(int i=endRow;i>=startRow;i--){
             cout<<arr[i][startCol]<< " ";
         }
